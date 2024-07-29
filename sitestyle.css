@@ -3,7 +3,20 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Nav */
+/* header */
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/developer.png'), url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.developer-image{
+    display: inline;
+}
+
+/* nav bar */
 nav{
     display: flex;
     justify-content: space-between;
@@ -31,7 +44,6 @@ nav a{
 .nav-title{
     font-family: "Open Sans";
     font-size: 45px;
-    font-style: normal;
     font-weight: 800;
 }
 
@@ -39,7 +51,6 @@ nav a{
     color: #FD6E0A;
     font-family: "Open Sans";
     font-size: 45px;
-    font-style: normal;
     font-weight: 800;
 }
 
@@ -53,24 +64,93 @@ nav a{
     color: #FFF;
     font-family: "Open Sans";
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
 }
 
-/* header */
-
-.header{
-    background-color: #FFF8F3;
-}
+/* banner */
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile-picture{
     width: 584px;
     height: 676px;
+}
+
+.banner-greeting{
+    color: #474747;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 600;
+
+    margin-bottom: 0;
+}
+
+.banner-title{
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 50px;
+    font-weight: 700;
+
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    color: #757575;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* about section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+
+.about-title{
+    color: #181818;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-description{
+    color: #757575;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
 }
