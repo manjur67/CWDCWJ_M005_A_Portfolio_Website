@@ -67,6 +67,19 @@ nav a{
     font-weight: 700;
 }
 
+.btn-primary-con{
+    padding: 15px 35px;
+    
+    color: #FD6E0A;
+    background: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
 /* banner */
 
 .banner{
