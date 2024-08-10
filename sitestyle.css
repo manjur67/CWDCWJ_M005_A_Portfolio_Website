@@ -12,10 +12,6 @@ body{
     background-position: top left, bottom right;
 }
 
-.developer-image{
-    display: inline;
-}
-
 /* nav bar */
 nav{
     display: flex;
